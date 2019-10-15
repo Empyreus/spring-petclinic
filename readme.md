@@ -1,4 +1,4 @@
-# RJ's Spring PetClinic Sample Application
+# RJ's Spring PetClinic Sample Application Test
 
 
 ## Understanding the Spring Petclinic application with a few diagrams
