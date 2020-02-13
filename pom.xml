@@ -418,7 +418,12 @@
             </plugin>
         </plugins>
     </reporting>
-
+    <repositories>
+        <repository>
+            <id>maven-group</id>
+            <url>http://localhost:8081/repository/repository-example</url>
+        </repository>
+    </repositories>
     <distributionManagement>
         <snapshotRepository>
             <id>snapshots</id>
