@@ -421,7 +421,9 @@
     </reporting>
     <repositories>
         <repository>
-            <id>maven-group</id>
+            <id>central</id>
+            <name>Maven Central</name>
+            <layout>default</layout>
             <url>http://localhost:8081/repository/repository-example</url>
         </repository>
     </repositories>
@@ -430,7 +432,7 @@
         <pluginRepository>
             <id>vineetmanohar-nexus</id>
             <name>vineetmanohar</name>
-            <url>http://nexus.vineetmanohar.com/nexus/content/groups/public</url>
+            <url>http://localhost:8081/repository/repository-example/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
