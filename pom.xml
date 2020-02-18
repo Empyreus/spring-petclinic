@@ -180,7 +180,7 @@
             <artifactId>joda-time</artifactId>
         </dependency>
         <dependency>
-            <groupId>joda-time</groupId>
+            <groupId>com.devops.bootcamp.samples</groupId>
             <artifactId>joda-time-hibernate</artifactId>
             <version>${jodatime-hibernate.version}</version>
         </dependency>
