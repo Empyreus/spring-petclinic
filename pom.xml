@@ -422,17 +422,22 @@
     <repositories>
         <repository>
             <id>central</id>
-            <name>Maven Central</name>
+            <name> Maven Central</name>
             <layout>default</layout>
             <url>http://localhost:8081/repository/repository-example</url>
         </repository>
+         <repository>
+            <id>maven-group</id>
+            <url>http://localhost:8081/repository/repository-example</url>
+        </repository>
+
     </repositories>
     <!-- download plugins from this repo -->
     <pluginRepositories>
         <pluginRepository>
             <id>vineetmanohar-nexus</id>
             <name>vineetmanohar</name>
-            <url>http://localhost:8081/repository/repository-example/</url>
+            <url>http://nexus.vineetmanohar.com/nexus/content/groups/public</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
