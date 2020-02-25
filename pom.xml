@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.springframework.samples</groupId>
     <artifactId>spring-petclinic</artifactId>
@@ -180,7 +180,7 @@
             <artifactId>joda-time</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.devops.bootcamp.samples</groupId>
+            <groupId>joda-time</groupId>
             <artifactId>joda-time-hibernate</artifactId>
             <version>${jodatime-hibernate.version}</version>
         </dependency>
@@ -189,6 +189,7 @@
             <artifactId>joda-time-jsptags</artifactId>
             <version>${jodatime-jsptags.version}</version>
         </dependency>
+
         <!-- Databases - Uses HSQL by default -->
         <dependency>
             <groupId>org.hsqldb</groupId>
@@ -417,19 +418,5 @@
             </plugin>
         </plugins>
     </reporting>
-    <repositories>
-    </repositories>
-    <!-- download plugins from this repo -->
-    <distributionManagement>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <url>http://localhost:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-        <repository>
-            <id>releases</id>
-            <url>http://localhost:8081/repository/maven-releases/</url>
-        </repository>
-    </distributionManagement>
-
     <url>demopetclinic</url>
 </project>
