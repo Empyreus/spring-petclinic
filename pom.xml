@@ -28,7 +28,7 @@
         <assertj.version>2.2.0</assertj.version>
 
         <!-- Dates -->
-        <jodatime-hibernate.version>9.2.1</jodatime-hibernate.version>
+        <jodatime-hibernate.version>1.4</jodatime-hibernate.version>
         <jodatime-jsptags.version>1.1.1</jodatime-jsptags.version>
         <jadira-usertype-core.version>3.2.0.GA</jadira-usertype-core.version>
 
@@ -253,7 +253,6 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>9.2.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -419,32 +418,8 @@
         </plugins>
     </reporting>
     <repositories>
-        <repository>
-            <id>central</id>
-            <name> Maven Central</name>
-            <layout>default</layout>
-            <url>http://localhost:8081/repository/maven-central/</url>
-        </repository>
-         <repository>
-            <id>maven-group</id>
-            <url>http://localhost:8081/repository/maven-releases/</url>
-        </repository>
-
     </repositories>
     <!-- download plugins from this repo -->
-    <pluginRepositories>
-        <pluginRepository>
-            <id>vineetmanohar-nexus</id>
-            <name>vineetmanohar</name>
-            <url>http://nexus.vineetmanohar.com/nexus/content/groups/public</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
     <distributionManagement>
         <snapshotRepository>
             <id>snapshots</id>
