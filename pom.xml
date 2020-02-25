@@ -399,6 +399,16 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.3</version>
             </plugin>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <url>http://localhost:8081<url>
+                    <server>TomcatServer</server>
+                    <path>/usr/share/tomcat/webapps</path>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
     <reporting>
