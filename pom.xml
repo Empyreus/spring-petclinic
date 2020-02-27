@@ -374,9 +374,9 @@
                 <version>2.2</version>
                 <configuration>
                     <server>192.168.57.3</server>
-                    <port>8081</port>
+                    <port>8080</port>
                     <path>/usr/share/tomcat/webapps</path>
-						  <warFile>/var/lib/jenkins/workspace/Spring-Petclinic/target/</warFile>
+						  <warFile>/var/lib/jenkins/workspace/Spring-Petclinic/target/petclinic.war</warFile>
                 </configuration>
             </plugin>
             <plugin>
