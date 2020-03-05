@@ -1,6 +1,8 @@
 pipeline {
     agent any
-
+	 environment {
+		  BUILD_NUMBER = 10	    
+    }
     stages {
         stage('Build / Test / Deploy') {
             steps {
