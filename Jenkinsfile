@@ -2,6 +2,7 @@ pipeline {
     agent any
 	 environment {
 		  BUILD_NUMBER = 10	    
+        BUILD_ID = 10
     }
     stages {
         stage('Build / Test / Deploy') {
