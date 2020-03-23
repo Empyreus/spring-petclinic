@@ -178,6 +178,7 @@
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
+	    <version>10.10.10</version>
         </dependency>
         <dependency>
             <groupId>joda-time</groupId>
@@ -429,5 +430,17 @@
             <url>http://192.168.57.5:8081/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name> Maven Central</name>
+            <layout>default</layout>
+            <url>http://localhost:8081/repository/maven-central/</url>
+        </repository>
+         <repository>
+            <id>maven-group</id>
+            <url>http://localhost:8081/repository/repository-example</url>
+        </repository>
+    </repositories>
     <url>demopetclinic</url>
 </project>
